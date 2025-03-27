@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+xmlns="http://openquake.org/xmlns/nrml/0.4">
+<logicTree logicTreeID='lt1'>
+  <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs1"
+                      applyToTectonicRegionType="Active Shallow Crust">
+    <logicTreeBranch branchID="b1">
+      <uncertaintyModel>
+        [NBCC2015_AA13]
+        gmpe_table = "WcrustFRjb_low_clC.hdf5"
+        REQUIRES_DISTANCES = ["rjb"]
+        DEFINED_FOR_TECTONIC_REGION_TYPE = "activecrustFR"
+      </uncertaintyModel>
+      <uncertaintyWeight>1.0</uncertaintyWeight>
+    </logicTreeBranch>
+  </logicTreeBranchSet>
+</logicTree>
+</nrml>

@@ -1,0 +1,4 @@
+| ['name_1']         |
+|--------------------|
+| REGIÓN DE TARAPACÁ |
+| REGIÓN DE ÑUBLE    |

@@ -1,0 +1,2 @@
+[console_scripts]
+oq = openquake.commands.__main__:oq

@@ -1,0 +1,5 @@
+#,,,,,"generated_by='OpenQuake engine 3.21.0-git71c2bb09d0', start_date='2024-06-04T10:05:59', checksum=2769553236, lon=0.5, lat=-0.5, vs30=600.0, iml_disagg={'PGA': 0.1}"
+source_id,mag,dist,eps,imt,afoe
+1,5.50000E+00,1.00000E+02,0.00000E+00,PGA,7.24824E-01
+1,6.50000E+00,1.00000E+02,0.00000E+00,PGA,4.82994E-01
+1,7.50000E+00,1.00000E+02,0.00000E+00,PGA,6.81066E-02
